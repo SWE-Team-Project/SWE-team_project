@@ -17,7 +17,7 @@ def main_page():
     # serves the main page of the application
     return render_template("index.html")
 
-'''
+
 @app.route("/calculator")
 def food_costs():
     return render_template("calculator.html")
@@ -40,10 +40,9 @@ def diets():
 
 
 #allows the user to search for different meal or food options
-
 @app.route("/meals")
 def meal_search():
     return render_template("meal_search.html")
-'''
+
 if __name__ == "__main__":
     app.run()
