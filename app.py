@@ -16,7 +16,7 @@ app = Flask(__name__)
 def main_page():
     # serves the main page of the application
     return render_template("index.html")
-
+'''
 '''
 tabulates food costs
 '''
@@ -49,6 +49,6 @@ allows the user to search for different meal or food options
 @app.route("/meals")
 def meal_search():
     return render_template("meal_search.html")
-
+'''
 if __name__ == "__main__":
     app.run()
